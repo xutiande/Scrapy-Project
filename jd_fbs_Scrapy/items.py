@@ -12,7 +12,7 @@ class JdFbsScrapyItem(scrapy.Item):
     big_category_link = scrapy.Field()  # 大分类链接
     small_category = scrapy.Field()  # 小分类
     small_category_link = scrapy.Field()  # 小分类链接
-    bookname = scrapy.Field()  # 书名
-    author = scrapy.Field()  # 作者
+    bookName = scrapy.Field()  # 书名
+    shopName = scrapy.Field()  # 作者
     link = scrapy.Field()  # 链接
     price = scrapy.Field()  # 价格
